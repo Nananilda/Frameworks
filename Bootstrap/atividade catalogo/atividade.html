@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- menu nav -->
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img src="img/favicon-32x32.png" alt="Logo Janela Janelinha Janelão" width="50" height="50" class="me-2">
+            <span class="fs-4">Janela Janelinha Janelão</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#inicio" class="btn btn-outline-primary">Início</a></li>
+            <li class="nav-item"><a href="#produtos" class="btn btn-outline-primary">Produtos</a></li>
+            <li class="nav-item"><a href="#contato" class="btn btn-outline-primary">Contato</a></li>
+        </ul>
+    </header>
+
+    <!-- bannner -->
+    <div id="inicio" class="carousel slide mb-6" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#inicio" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#inicio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#inicio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="img/quartojanela.png" class="d-block w-100" alt="Janela de madeira no quarto">
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Janela no quarto</h1>
+                        <p>Ter uma janela de madeira no quarto garante um ambiente muito mais confortável e acolhedor.
+                        </p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Entre em contato</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/salajanela.png" class="d-block w-100" alt="Janela na sala">
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Janela na sala</h1>
+                        <p>Uma janela comum na sala, geralmente de alumínio ou ferro, traz benefícios focados em
+                            praticidade e economia.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Entre em contato</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/cozinhajanela.png" class="d-block w-100" alt="Janela na cozinha">
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Janela na cozinha</h1>
+                        <p>Uma janela comum na cozinha, feita de alumínio ou PVC, oferece praticidade e facilita a
+                            ventilação.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Entre em contato</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#inicio" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#inicio" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próxima</span>
+        </button>
+    </div>
+
+    <!-- conteudo  -->
+    <div id="produtos" class="album py-5 bg-body-tertiary">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/basculnte.png" class="bd-placeholder-img card-img-top" height="225">
+
+                        <div class="card-body">
+                            <span><b>Basculante</b></span>
+                            <p class="card-text">Funciona através de um básculo (uma alavanca lateral). É muito
+                                utilizada em locais altos como banheiros e cozinhas para garantir ventilação constante e
+                                privacidade.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Editar</button>
+                                </div>
+                                <small class="text-body-secondary">Pérsia 4000 a.C.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/camarao.png" class="bd-placeholder-img card-img-top" height="225">
+
+                        <div class="card-body">
+                            <span><b>Camarão</b></span>
+                            <p class="card-text"> Também conhecida como sanfonada. Suas folhas correm sobre trilhos e
+                                vão se dobrando umas sobre as outras nas laterais, liberando quase 100% da abertura do
+                                vão.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Editar</button>
+                                </div>
+                                <small class="text-body-secondary">John Hampton, em 1841</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/decorrer.png" class="bd-placeholder-img card-img-top" height="225">
+
+                        <div class="card-body">
+                            <span><b>De correr</b></span>
+                            <p class="card-text"> Modelo em que as folhas deslizam horizontalmente sobre trilhos. É a
+                                favorita da arquitetura moderna por economizar espaço útil interno.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Editar</button>
+                                </div>
+                                <small class="text-body-secondary">Le Corbusier em 1926</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/degirar.png" class="bd-placeholder-img card-img-top" height="225"
+                            preserveAspectRatio="xMidYMid slice" role="img" width="100%"
+                            xmlns="http://www.w3.org/2000/svg">
+
+                        <div class="card-body">
+                            <span><b>De girar</b></span>
+                            <p class="card-text">Termo técnico associado às janelas tradicionais de abrir (com
+                                dobradiças nas laterais) ou modelos pivotantes que giram em torno de um eixo vertical
+                                próprio.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Editar</button>
+                                </div>
+                                <small class="text-body-secondary">Inglaterra 1920 e 1930</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/fixa.png" class="bd-placeholder-img card-img-top" height="225"
+                            preserveAspectRatio="xMidYMid slice" role="img" width="100%"
+                            xmlns="http://www.w3.org/2000/svg">
+
+                        <div class="card-body">
+                            <span><b>Fixa</b></span>
+                            <p class="card-text"> Uma esquadria que não possui nenhum sistema de abertura. Sua única
+                                utilidade é permitir a entrada direta de luz natural e enquadrar vistas externas.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Editar</button>
+                                </div>
+                                <small class="text-body-secondary">Europa Medieval (século XIV/XV)</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/veneziana.png" class="bd-placeholder-img card-img-top" height="225"
+                            preserveAspectRatio="xMidYMid slice" role="img" width="100%"
+                            xmlns="http://www.w3.org/2000/svg">
+
+                        <div class="card-body">
+                            <span><b>Veneziana</b></span>
+                            <p class="card-text">Possui lâminas horizontais inclinadas fixas ou móveis. É amplamente
+                                aplicada em quartos por conseguir bloquear a entrada de luz mantendo a circulação de ar.
+                            </p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Editar</button>
+                                </div>
+                                <small class="text-body-secondary">Estados Unidos entre 1880 e 1894</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- lista -->
+            <div class="container px-4 py-5" id="featured-3">
+                <h1 class="mb-4">Por que usar janelas</h1>
+
+                <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+                    <div class="feature col">
+                        <h3 class="fs-2 text-body-emphasis">Saúde e Renovação do Ar</h3>
+                        <p>As janelas permitem a ventilação dos ambientes, ajudando a renovar o ar,
+                            reduzir a umidade e eliminar odores, contribuindo para um espaço mais saudável.</p>
+                        <img src="img/ventilajanela.png" class="bd-placeholder-img card-img-top rounded" height="225"
+                            preserveAspectRatio="xMidYMid slice" role="img" width="100%"
+                            xmlns="http://www.w3.org/2000/svg">
+                    </div>
+
+                    <div class="feature col">
+                        <h3 class="fs-2 text-body-emphasis">Iluminação Natural e Economia</h3>
+                        <p>Elas permitem a entrada de luz natural durante o dia, melhoram o conforto
+                            dos ambientes e ajudam a reduzir o consumo de energia elétrica com iluminação
+                            artificial.</p>
+                        <img src="img/janelaluz.png" class="bd-placeholder-img card-img-top rounded" height="225"
+                            preserveAspectRatio="xMidYMid slice" role="img" width="100%"
+                            xmlns="http://www.w3.org/2000/svg">
+                    </div>
+
+                    <div class="feature col">
+                        <h3 class="fs-2 text-body-emphasis">Conforto e Integração Visual</h3>
+                        <p>As janelas conectam o interior ao ambiente externo, oferecem vistas para
+                            o exterior e podem contribuir para o conforto térmico por meio da ventilação.</p>
+                        <img src="img/janelaverde.png   " class="bd-placeholder-img card-img-top rounded" height="225"
+                            preserveAspectRatio="xMidYMid slice" role="img" width="100%"
+                            xmlns="http://www.w3.org/2000/svg">
+                    </div>
+                </div>
+            </div>
+
+            <!-- form -->
+            <div class="container py-5">
+                <div id="contato">
+                    <form>
+                        <h1 class="h3 mb-3 fw-normal">Nos contate</h1>
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="nome" placeholder="Anna Hilda" required>
+                            <label for="nome">Nome</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                            <label for="email">E-mail</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="mensagem" placeholder="Mensagem" style="height: 120px"
+                                required></textarea>
+                            <label for="mensagem">Mensagem</label>
+                        </div>
+
+                        <button class="btn btn-primary w-100 py-2" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- rodapé -->
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-4 border-top">
+
+                <p class="col-12 col-md-4 mb-3 mb-md-0 text-body-secondary text-center text-md-start">&copy; 2026 Janela
+                    Janelinha Janelão</p>
+
+                <a href="#inicio"
+                    class="col-12 col-md-4 mb-3 mb-md-0 text-center text-decoration-none text-body-emphasis"
+                    aria-label="Voltar ao início"><span class="fs-5">Janela Janelinha Janelão</span></a>
+
+                <ul class="nav col-12 col-md-4 justify-content-center justify-content-md-end">
+                    <li class="nav-item"><a href="#inicio" class="nav-link px-2 text-body-secondary">Início</a></li>
+                    <li class="nav-item"><a href="#produtos" class="nav-link px-2 text-body-secondary">Produtos</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link px-2 text-body-secondary">Contato</a></li>
+                </ul>
+
+            </footer>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
