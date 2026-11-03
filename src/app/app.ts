@@ -2,6 +2,7 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Home } from './components/home/home';
 import { End } from './components/end/end';
+// alteração
 
 @Component({
   imports: [RouterOutlet, Home, End],

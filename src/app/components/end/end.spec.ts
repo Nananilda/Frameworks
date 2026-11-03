@@ -19,3 +19,5 @@ describe('End', () => {
     expect(component).toBeTruthy();
   });
 });
+
+// alterações
